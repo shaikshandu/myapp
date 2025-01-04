@@ -1,74 +1,32 @@
-/* General Reset */
-body, html {
+body {
     margin: 0;
-    padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #101010;
-    color: #ffffff;
-  }
-  
-  /* Container */
-  .container {
+    background: #000;
+    color: #fff;
     text-align: center;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
     padding: 20px;
-  }
-  
-  /* Navigation */
-  nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #00bcd4;
-    font-size: 18px;
-  }
-  
-  /* Hero Section */
-  .hero {
-    margin-top: 50px;
-  }
-  
-  .profile-pic img {
+}
+.profile {
+    margin-top: 20px;
+}
+.profile-pic {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 2px solid #00bcd4;
-  }
-  
-  h1 {
-    font-size: 36px;
-    margin: 20px 0 10px;
+    border: 5px solid #00bcd4;
+}
+nav a {
+    margin: 0 10px;
     color: #00bcd4;
-  }
-  
-  .subtitle {
-    font-size: 18px;
-    font-weight: 300;
-    color: #cccccc;
-  }
-  
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 20px;
-  }
-  
-  .social-icons .icon {
-    width: 30px;
-    height: 30px;
-    background-size: cover;
-  }
-  
-  .instagram { background-image: url('instagram-icon.png'); }
-  .github { background-image: url('github-icon.png'); }
-  .spotify { background-image: url('spotify-icon.png'); }
-  .email { background-image: url('email-icon.png'); }
-  .discord { background-image: url('discord-icon.png'); }
-  .linkedin { background-image: url('linkedin-icon.png'); }
-  
+    text-decoration: none;
+}
+.social-icons a {
+    display: inline-block;
+    margin: 10px;
+    color: #00bcd4;
+    text-decoration: none;
+}
