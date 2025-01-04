@@ -24,9 +24,29 @@ nav a {
     color: #00bcd4;
     text-decoration: none;
 }
-.social-icons a {
-    display: inline-block;
-    margin: 10px;
+h2 {
     color: #00bcd4;
-    text-decoration: none;
+}
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00bcd4;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #008ba3;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    background: #222;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
 }
