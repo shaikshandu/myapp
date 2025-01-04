@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Dynamic Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,11 +18,24 @@
             <a href="#projects">Projects</a>
             <a href="#skills">Skills</a>
         </nav>
-        <div class="social-icons">
-            <a href="https://instagram.com" target="_blank">Instagram</a>
-            <a href="https://github.com" target="_blank">GitHub</a>
-            <!-- Add other social links -->
+
+        <div id="projects">
+            <h2>Projects</h2>
+            <ul id="projects-list">
+                <!-- Dynamic projects will be added here -->
+            </ul>
+            <button id="add-project-btn">Add Project</button>
+        </div>
+
+        <div id="skills">
+            <h2>Skills</h2>
+            <ul id="skills-list">
+                <!-- Dynamic skills will be added here -->
+            </ul>
+            <button id="add-skill-btn">Add Skill</button>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
