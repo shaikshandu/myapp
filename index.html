@@ -3,39 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="dot-background"></div>
     <div class="container">
-        <div class="profile">
-            <img src="shaik.jpg" alt="Profile Picture" class="profile-pic">
-            <h1>Hey! I'm Your Name</h1>
-            <p>STUDENT & DEVELOPER</p>
-        </div>
+        <img src="profile-picture.jpg" alt="Profile Picture" class="profile-picture">
+        <h1>Your Name</h1>
+        <h2>Your Title or Tagline</h2>
         <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
-
-        <div id="projects">
-            <h2>Projects</h2>
-            <ul id="projects-list">
-                <!-- Dynamic projects will be added here -->
-            </ul>
-            <button id="add-project-btn">Add Project</button>
-        </div>
-
-        <div id="skills">
-            <h2>Skills</h2>
-            <ul id="skills-list">
-                <!-- Dynamic skills will be added here -->
-            </ul>
-            <button id="add-skill-btn">Add Skill</button>
+        <div class="social-icons">
+            <a href="https://github.com" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
         </div>
     </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
