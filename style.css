@@ -22,8 +22,8 @@ header {
     padding: 10px 20px;
     border-radius: 30px;
     box-shadow: 0 4px 6px rgba(81, 111, 136, 0.3);
-    width: 300px; /* Explicitly sets the box width */
-    margin: 0 auto; /* Centers the header on the page */
+    width: auto; /* Allow the header to be responsive */
+    margin: 0 auto;
 }
 
 header a {
@@ -38,12 +38,11 @@ header a:hover {
     color: #fff;
 }
 
-
 .profile {
     position: relative;
-    margin: 30px auto 0 auto; /* Moves the profile box forward */
-    width: 150px;
-    height: 150px;
+    margin: 30px auto;
+    width: 120px; /* Adjusted width for better responsiveness */
+    height: 120px;
     border-radius: 50%;
     overflow: hidden;
     border: 3px solid #00bcd4;
@@ -61,12 +60,12 @@ header a:hover {
 }
 
 .title h1 {
-    font-size: 2.5em;
+    font-size: 2em; /* Adjusted size for responsiveness */
     color: #00bcd4;
 }
 
 .subtitle {
-    font-size: 1.2em;
+    font-size: 1.1em; /* Slightly smaller for better fit */
     font-weight: 300;
     color: #aaa;
     margin-bottom: 10px;
@@ -86,18 +85,20 @@ footer {
     color: #aaa;
 }
 
-
 .social-icons {
     display: flex;
-    justify-content: center; /* Centers horizontally */
+    justify-content: center;
     gap: 15px;
- }
- .social-icons a img {
-    width: 40px;
-    height: 40px;
-    transition: transform 0s;
-    }
- .social-icons a img:hover {
-    transform: scale(0);
- }
-    
+    margin-top: 20px;
+}
+
+.social-icons a img {
+    width: 30px; /* Smaller size for better GitHub fit */
+    height: 30px;
+    transition: transform 0.3s ease-in-out; /* Added ease-in-out for smoother effect */
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
