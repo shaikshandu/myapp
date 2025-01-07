@@ -93,11 +93,11 @@ footer {
     gap: 15px;
  }
  .social-icons a img {
-            width: 40px;
-            height: 40px;
-            transition: transform 0s;
-        }
-        .social-icons a img:hover {
-            transform: scale(0);
-        }
+    width: 40px;
+    height: 40px;
+    transition: transform 0s;
+    }
+ .social-icons a img:hover {
+    transform: scale(0);
+ }
     
